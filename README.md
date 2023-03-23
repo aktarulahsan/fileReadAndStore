@@ -14,6 +14,7 @@ first, create a schema in MySQL with a test or set schema name, username and pas
  after checking the validation of valid Customers and Invalid Customers store different tables. 
  after storing get all valid data and create a file. those files in a batch of files
 including 10k customers with each file.
+all file store on project label upload folder. 
 
 
 here are another 3 api have . 
