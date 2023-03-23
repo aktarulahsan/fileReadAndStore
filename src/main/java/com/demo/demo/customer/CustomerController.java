@@ -206,25 +206,6 @@ public class CustomerController {
         }
         writer.close();
 
-        /*response.setContentType("text/csv");
-
-        DateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
-        String currentDateTime = dateFormatter.format(new Date());
-        String headerKey = "Content-Disposition";
-        String headerValue = "attachment; filename=validCustomer" + currentDateTime+index+ ".csv";
-        response.setHeader(headerKey, headerValue);
-
-        ICsvBeanWriter csvWriter = new CsvBeanWriter(response.getWriter(), CsvPreference.STANDARD_PREFERENCE);
-        String[] csvHeader = {"ID", "name",  "branch", "city", "state","zipCode","phone","mail","ip_number"};
-        String[] nameMapping = {"id", "name", "branch", "city", "state","zipCode","phone","mail","ip_number"};
-
-        csvWriter.writeHeader(csvHeader);
-
-        for (CustomerModel customerModel :batch ) {
-            csvWriter.write(customerModel, nameMapping);
-        }
-
-        csvWriter.close();*/
     }
 
 
