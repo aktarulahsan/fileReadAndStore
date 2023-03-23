@@ -15,4 +15,10 @@ first, create a schema in MySQL with a test or set schema name, username and pas
  after storing get all valid data and create a file. those files in a batch of files
 including 10k customers with each file.
 
+
+here are another 3 api have . 
+ http://localhost:9014/lead-api/category/validCustomerSlab    // for including 10k customers with each file.
+ http://localhost:9014/lead-api/category/inValidCustomerSlab  // store InvalidCustomer 
+ http://localhost:9014/lead-api/category/validCustomer        // for download all validCustomer in one file 
+
 Data process time was  Duration is: 89437ms, Total file line count: 1231081, Line count time: 89439ms
